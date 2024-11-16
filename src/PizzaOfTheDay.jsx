@@ -2,7 +2,7 @@ import { usePizzaOfTheDay } from "./usePizzaOfTheDay";
 
 const intl = new Intl.NumberFormat("en-US", {
   style: "currency",
-  currency: "INR",
+  currency: "USD",
 });
 
 const PizzaOfTheDay = () => {
